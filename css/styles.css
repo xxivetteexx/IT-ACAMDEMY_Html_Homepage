@@ -1,0 +1,363 @@
+*{
+    background-color: #ebe2d3;
+}
+
+/* ________________________________________CAPÇALERA ________________________________________*/
+
+header {
+    /* Flexbox*/
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: center;
+    /* CSS*/
+    padding:0px 15px 0px 15px;
+}
+
+.logo {
+    /* Flexbox */
+    display:flex;
+    flex: 1 1 auto;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;    
+    font-size: 3rem;
+    margin:0px;
+}
+
+/*Navegador capçalera*/
+
+.menu {
+     /* Propietats Flexbox pare*/
+    display:flex;
+    flex-flow:column wrap;
+    flex: 5 1 auto; 
+    justify-content: center;
+    /* Propietats CSS*/
+    font-size: 1.1rem;
+    font-family: 'Open Sans', sans-serif;
+    /*border: 1px solid black;*/
+} 
+
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* Propietats CSS*/
+    background-color: #ebe2d3;
+    list-style: none;  
+}
+
+/* Com es comporten els links del navegador*/
+.menu a{
+    text-decoration: none;
+    color:black;
+    font-weight: 600;
+}
+
+.menu a:hover {
+    background-color: #ec9a30;
+}
+
+/* ------ */
+
+.social {
+    /* Propietats Flexbox pare*/
+   display:flex;
+   flex-flow: column wrap;
+   justify-content: center;
+   /* Propietats CSS*/
+   margin: 10px 10px 10px 0px;
+}
+
+.social ul{
+     /* Propietats Flexbox */
+    display:flex;
+    justify-content: center;
+    /* Propietats CSS*/
+    list-style: none;
+}
+
+.social a{
+    margin:0px 5px 0px 5px; 
+    text-decoration: none;
+    color:black;
+}
+
+
+.social a:hover {    
+    background-color:#ec9a30;
+}
+
+/* ________________________________________PART CENTRAL WEB________________________________________*/
+
+section {
+    /* Propietats Flexbox pare*/
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenidor1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 15px 15px 15px;
+}
+
+.principal img{
+    display: flex;
+    width:100%;
+}
+
+.columna {
+    display: flex;
+    flex-flow:row wrap;
+    /* Propietats CSS*/
+    margin-left: 15px;
+    padding-top:5px;
+    width:30%;
+    background-color: white;
+}
+
+.columna header{
+    font-size: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    background-color: white;
+}
+
+.columna h1{
+    background-color: white;
+}
+.columna p{
+    margin-top:0px;
+    padding:0px 20px 20px 20px;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+/* WORKSHOP TEXT*/
+.textWorkshop{
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.textWorkshop h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    margin:15px;
+}
+
+
+.textWorkshop p{
+    margin:0px 300px 0px 300px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+}
+
+/* SECCIÓ IMATGES DEL CURS*/
+.secundari {
+    /* Propietats Flexbox pare*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Propietats CSS*/ 
+    margin-top: 40px;
+    padding: 15px 15px 15px 15px;
+}
+
+.secundari a{
+    /* Propietats Flexbox*/
+    display: flex;
+    justify-content: center;
+    /* Propietats CSS*/
+    margin:0px 5px 0px 5px; 
+}
+
+.secundari img{
+    display: flex;
+    flex: 1 1 auto;
+    width: 100%;
+}
+
+.secundari a:hover{
+    background-color: #dfa16d;
+}
+
+/* ________________________________________FOOTER ________________________________________*/
+
+footer {
+    /* Flexbox */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+     /*CSS*/
+    margin:10px;
+    padding:10px 10px 10px 40px;
+    background-color: #ebe2d3;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem; 
+}
+
+/*Títols dels llistats del footer*/
+.titulo{
+    font-weight: 600;
+    font-size: 0.9rem;  
+    padding-left: 5px; 
+}
+
+/*Llistats*/
+.information,.about,.faqs{
+    /* Flexbox */
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Open Sans', sans-serif;
+    /*CSS*/
+    margin: 0px 90px 0px 0px;
+    list-style: inside;
+}
+
+.information ul, .about ul, .faqs ul{ 
+    margin:0px;
+    padding:0px; 
+    list-style: none;  
+    background-color: #dfa16d;
+}
+
+/*Botons*/
+.information a, .about a, .faqs a{
+    margin:0px 5px 0px 5px; 
+    text-decoration: none;
+    color:black;
+    background-color:#ebe2d3; 
+    font-size: 0.85rem;    
+}
+
+.information a:hover, .about a:hover, .faqs a:hover{
+    background-color: #ec9a30;
+}
+
+.information ul li, .about ul li, .faqs ul li{
+    background-color: #ebe2d3; 
+}
+
+
+
+
+/* ________________________________________ MEDIA QUERY________________________________________*/
+
+@media all and (max-width: 800px){ /* La pàgina de 0px a 800px realitzarà els següents canvis*/
+    
+    /*------HEADER-----*/
+    header{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        padding:10px;
+    }
+   
+    .menu {
+        flex-direction: column ;
+        justify-content: center;
+        flex: 1 1 auto;
+        height: auto;
+    }
+
+    .menu ul {
+        flex-direction: column ;
+        height: auto;
+        margin: auto;
+    }
+
+    .menu ul li{
+        margin:10px;
+    }
+
+    .social{
+        flex-direction: column ;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .social ul li{
+        flex-direction: row;
+        justify-content: center;
+        padding: 0px;
+    }
+    
+    /*------SECTION-----*/
+
+    .contenidor1{
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+    }
+
+    .columna{
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+        width: 100%;
+        margin: 10px;
+    }
+
+    .textWorkshop{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .textWorkshop h1{
+        margin:0px 30px 0px 30px;
+        height: auto;
+    }
+
+    .textWorkshop p{
+        margin:0px 30px 0px 30px;
+        padding-top:10px;
+        height: auto;
+    }
+
+
+    .secundari{
+        flex-direction: column ;
+        height: auto;
+        padding:0px 15px 15px 15px;
+    }
+
+    .secundari img{
+        margin-top: 15px;
+    }
+   
+
+    /*-----FOOTER-----*/
+
+    
+
+    .information, .about, .faqs{
+        flex-direction: row ;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 0px 0px 0px;
+        padding-right: 20px;
+        font-size: 0.9rem;
+    }
+
+}
+
+
