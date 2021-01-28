@@ -10,7 +10,7 @@ Develop an HTML page from a wireframe.psd
 
 
 
-###### PROJECT DEMO URL : https://xxivetteexx.github.io/IT_ACADEMY_API_REST/
+###### PROJECT DEMO URL : https://xxivetteexx.github.io/IT-ACAMDEMY_Html_Homepage/
 <hr>
 
 ### THE EXERCICE:
@@ -47,5 +47,5 @@ Develop your HTML by adding:
 
 ```Exercice 3.```
 
-Create a Media Query that modifies the rows so that they contain a single column on mobile devices:
+Create a Media Query that modifies the rows so that they contain a single column on mobile devices
 
