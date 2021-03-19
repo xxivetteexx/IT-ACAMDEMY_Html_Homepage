@@ -1,23 +1,17 @@
 # IT ACADEMY HOMEPAGE WITH HTML
 
-
-<!-- ABOUT THE PROJECT -->
-## About The Project
-
-Develop an HTML page from a wireframe.psd
-
 ![Homepage github-02-02](https://user-images.githubusercontent.com/48102806/106180702-f2216780-619c-11eb-8a17-57bfd1a831fd.jpg)
 
 
+### [Web](https://xxivetteexx.github.io/IT-ACAMDEMY_Html_Homepage/) 💻
 
-###### PROJECT DEMO URL : https://xxivetteexx.github.io/IT-ACAMDEMY_Html_Homepage/
-<hr>
 
-### THE EXERCICE:
+## Getting started 🚀
+Develop an HTML page from a wireframe.psd
 
-#### LEVEL 1:
+#### Level :one:
 
-```Exercice 1.```
+```Exercice 1```
 
 We will start from a Wireframe provided by a designer, and we will have to turn it into a formal HTML page. 
 
@@ -30,7 +24,7 @@ The aspects that will be valued will be:
 - The code must be commented and structured
 
 
-```Exercice 2.```
+```Exercice 2```
 
 Develop your HTML by adding:
 
@@ -43,9 +37,16 @@ Develop your HTML by adding:
 - Footer with contact details and copyright.
 
 
-#### LEVEL 2:
+#### Level 2️⃣ 
 
-```Exercice 3.```
+```Exercice 3```
 
 Create a Media Query that modifies the rows so that they contain a single column on mobile devices
 
+## Tools 🛠️
+* HTML5
+* CSS
+* Flexbox
+
+## Author :raising_hand_woman:
+[Ivette](https://github.com/xxivetteexx)
